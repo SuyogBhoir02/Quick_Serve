@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/viewpage2">
+
+    <TextView
+        android:id="@+id/textViewPaymentMethod"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/qanect_elegant_font_2"
+        android:gravity="center"
+        android:text="Payment Method"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPaymentMethod"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/CreditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/coolvetica"
+            android:onClick="checkButton"
+            android:text="Credit Card"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/Upi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPI"
+            android:textSize="25dp"
+            android:fontFamily="@font/coolvetica"
+            android:onClick="checkButton"
+            android:checked="true"
+            android:textColor="@color/black"/>
+
+
+
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="447dp"
+        android:background="@drawable/red_button_background2"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="APPLY" />
+
+    <ImageView
+        android:id="@+id/btnGpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="243dp"
+        android:background="@drawable/gpay2" />
+
+
+    <ImageView
+        android:id="@+id/btnVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="243dp"
+        android:background="@drawable/visa2" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+
+
+
+    <!-- Add other payment fields/buttons as needed -->
+
+</RelativeLayout>

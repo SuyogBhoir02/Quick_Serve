@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "518767401839",
+    "firebase_url": "https://suyog21-3f95a-default-rtdb.firebaseio.com",
+    "project_id": "suyog21-3f95a",
+    "storage_bucket": "suyog21-3f95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518767401839:android:a8896afe996527c23c669a",
+        "android_client_info": {
+          "package_name": "com.example.quickserve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkJENXF81uSsxt--PbXksCfGrcqJdyp3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518767401839:android:a875d13a4dee1dad3c669a",
+        "android_client_info": {
+          "package_name": "com.example.quickserve21"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkJENXF81uSsxt--PbXksCfGrcqJdyp3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

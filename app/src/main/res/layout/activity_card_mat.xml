@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Number"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCardNumber"
+        android:inputType="number"
+        android:hint="Enter card number" />
+
+    <TextView
+        android:id="@+id/textViewExpirationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCardNumber"
+        android:layout_marginTop="16dp"
+        android:text="Expiration Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextExpirationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExpirationDate"
+        android:inputType="text"
+        android:hint="MM/YYYY" />
+
+    <TextView
+        android:id="@+id/textViewCVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextExpirationDate"
+        android:layout_marginTop="16dp"
+        android:text="CVVV"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCVV"
+        android:inputType="number"
+        android:hint="Enter CVV" />
+
+    <Button
+        android:id="@+id/buttonPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCVV"
+        android:layout_marginTop="32dp"
+        android:text="Pay Now" />
+
+</RelativeLayout>
