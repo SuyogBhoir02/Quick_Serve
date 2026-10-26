@@ -21,7 +21,16 @@ I developed the login and payment UI and adapted parts of the original project f
 📱 Screenshots
 
 Login Screen
-![Quick Serve Home](home_page.jpeg)
+<p align="center">
+  <img src="login.jpeg" width="200" alt="Login Screen" />
+  <img src="regist.jpeg" width="200" alt="Registration Screen" />
+</p>
+
+<p align="center">
+  <img src="home_page.jpeg" width="200" alt="Home Screen" />
+  <img src="menu.jpeg" width="200" alt="Menu Screen" />
+  <img src="select.jpeg" width="200" alt="Food Selection Screen" />
+</p>
 
 
 Registration Screen
