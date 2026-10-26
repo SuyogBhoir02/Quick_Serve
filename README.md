@@ -18,6 +18,26 @@ I developed the login and payment UI and adapted parts of the original project f
 - Payment method selection UI
 - Prices displayed in Indian Rupees (₹)
 
+📱 Screenshots
+
+Login Screen
+![Quick Serve Home](home_page.jpeg)
+
+
+Registration Screen
+
+
+
+Home Screen
+
+
+
+Menu Screen
+
+
+
+Food Selection Screen
+
 ## 🛠️ Built With
 
 - **Java** — Application logic
