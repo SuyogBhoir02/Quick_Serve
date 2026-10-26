@@ -18,34 +18,6 @@ I developed the login and payment UI and adapted parts of the original project f
 - Payment method selection UI
 - Prices displayed in Indian Rupees (₹)
 
-📱 Screenshots
-
-Login Screen
-<p align="center">
-  <img src="login.jpeg" width="200" alt="Login Screen" />
-  <img src="regist.jpeg" width="200" alt="Registration Screen" />
-</p>
-
-<p align="center">
-  <img src="home_page.jpeg" width="200" alt="Home Screen" />
-  <img src="menu.jpeg" width="200" alt="Menu Screen" />
-  <img src="select.jpeg" width="200" alt="Food Selection Screen" />
-</p>
-
-
-Registration Screen
-
-
-
-Home Screen
-
-
-
-Menu Screen
-
-
-
-Food Selection Screen
 
 ## 🛠️ Built With
 
@@ -62,6 +34,20 @@ This project began as my final-year BSc project. At the time, I was new to Andro
 ## 🙌 Credits
 
 The original implementation was developed with help from Android development tutorials by **UI Lover** on YouTube. This repository builds on that learning experience, alongside my own work on the login and payment interfaces and other changes.
+
+📱 Screenshots
+
+<p align="center">
+  <img src="login.jpeg" width="200" alt="Login Screen" />
+  <img src="regist.jpeg" width="200" alt="Registration Screen" />
+</p>
+
+<p align="center">
+  <img src="home_page.jpeg" width="200" alt="Home Screen" />
+  <img src="menu.jpeg" width="200" alt="Menu Screen" />
+  <img src="select.jpeg" width="200" alt="Food Selection Screen" />
+</p>
+
 
 ## 🚀 Getting Started
 
