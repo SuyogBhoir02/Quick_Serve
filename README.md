@@ -31,11 +31,7 @@ I developed the login and payment UI and adapted parts of the original project f
 
 This project began as my final-year BSc project. At the time, I was new to Android development and learned by following online tutorials. After recovering the project, I revisited the code, made changes, and continued learning through hands-on practice.
 
-## 🙌 Credits
-
-The original implementation was developed with help from Android development tutorials by **UI Lover** on YouTube. This repository builds on that learning experience, alongside my own work on the login and payment interfaces and other changes.
-
-📱 Screenshots
+##📱 Screenshots
 
 <p align="center">
   <img src="login.jpeg" width="200" alt="Login Screen" />
@@ -47,6 +43,12 @@ The original implementation was developed with help from Android development tut
   <img src="menu.jpeg" width="200" alt="Menu Screen" />
   <img src="select.jpeg" width="200" alt="Food Selection Screen" />
 </p>
+
+
+## 🙌 Credits
+
+The original implementation was developed with help from Android development tutorials by **UI Lover** on YouTube. This repository builds on that learning experience, alongside my own work on the login and payment interfaces and other changes.
+
 
 
 ## 🚀 Getting Started
